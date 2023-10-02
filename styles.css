@@ -8,10 +8,6 @@ img {
     max-height: 100px;
 }
 
-.info-tiles {
-    display: flex;
-}
-
 .band-intro {
     background-color: rgb(12, 12, 36);
     color: white;
@@ -84,4 +80,72 @@ img {
     font-size: 16px;
     border-radius: 25px;
 
+}
+
+.band-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-top: 45px;
+    gap: 50px;
+}
+
+.info-tiles {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.tile-text {
+    text-align: center;
+    max-width: 180px;
+    font-size: 18px;
+}
+
+.tile1, .tile2, .tile3, .tile4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 180px;
+    min-width: 180px;
+}
+
+.dog-pics {
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 180px;
+    min-height: 180px;
+    border-width: 3px;
+    border-radius: 25px;
+    border-color: blue;
+    border-style: solid;
+    
+}
+
+.random-info {
+    font-size: 40px;
+}
+
+.band-quote {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    align-items: center;
+    padding: 45px 0px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    align-items: center;
+    font-size: 38px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.quote-credit {
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 30px;
 }
