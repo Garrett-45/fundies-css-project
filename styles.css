@@ -199,3 +199,12 @@ img {
     color: white;
     font-weight: 600;
 }
+
+.band-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(1, 1, 31);
+    color: white;
+    padding: 20px;
+}
